@@ -1,0 +1,23 @@
+$ff-quicksand: "Quicksand", sans-serif;
+$h1-color: white;
+$h2-color: white;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $ff-quicksand;
+}
+
+h1,
+h2{
+	color: $h1-color;
+}
+
+@mixin flexbox($direction, $align, $justify){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+

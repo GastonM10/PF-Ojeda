@@ -1,0 +1,2 @@
+Activar SASS
+sass --watch sass/main.scss css/styles.css

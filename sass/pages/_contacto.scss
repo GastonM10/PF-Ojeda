@@ -1,0 +1,40 @@
+.contact-form{
+    padding: 20px;
+    background-color: #555555;
+}
+
+.grid-container-form-data h4{
+    color: white;
+}
+
+.imagen-contacto{
+    border-radius: 10px;
+}
+
+.white-line{
+    padding-top: 1rem;
+    color: white;
+}
+
+.grid-container-form-data{
+    padding: 10px;
+    font-weight: bold;
+    padding: 1rem;
+    gap: 1rem;
+    @include flexbox(column, start, space-evenly);
+}
+
+.btn-form{
+    align-self: center;
+}
+
+.btn-form:hover{
+    background-color: rgb(128, 128, 128) !important;
+    color: #212529;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+textarea{
+    resize:none; 
+}
