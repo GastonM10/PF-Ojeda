@@ -1,4 +1,4 @@
-# CoderHouse Desarrollo Web Comisión 49680
+# CoderHouse Desarrollo Web - Comisión 49680
 ## Tercera Pre Entrega - Gaston Ojeda 
 
 Las páginas trabajadas son:

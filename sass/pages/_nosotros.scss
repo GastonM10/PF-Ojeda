@@ -1,0 +1,18 @@
+.nosotros-containter{
+    background-color: $main-background;
+    padding: 1rem;
+    color: white;
+}
+
+.nosotros-titulo{
+    padding: 1rem;
+    @include flexbox(column, center, center);
+    text-align: center;
+}
+
+.nosotros-parrafo{
+    @include flexbox(column, center, center);
+    p:hover {
+        background-color: #1f2528;
+      }
+}

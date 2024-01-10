@@ -1,6 +1,7 @@
 $ff-quicksand: "Quicksand", sans-serif;
 $h1-color: white;
 $h2-color: white;
+$main-background: #555555;
 
 *{
     margin: 0;
@@ -21,3 +22,9 @@ h2{
     justify-content: $justify;
 }
 
+.sheet-title{
+    background-color: $main-background;
+    padding: 1rem;
+    color: white;
+    @include flexbox(column, center, center);
+}
