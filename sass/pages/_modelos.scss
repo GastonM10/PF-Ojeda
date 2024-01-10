@@ -2,7 +2,7 @@
     padding: 10px;
 }
 
-.container-modelos{
+.container-modelos-img{
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -11,4 +11,8 @@
 
 .white-line{
     color: white;
+}
+
+.imagen-modelos{
+    box-shadow: 2px 2px 4px #000000;
 }
