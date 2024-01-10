@@ -10,10 +10,17 @@ h2 {
   color: white;
 }
 
-.sheet-title {
+.default-container {
   background-color: #555555;
   padding: 1rem;
   color: white;
+}
+
+.default-title {
+  background-color: #555555;
+  padding: 1rem;
+  color: white;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,11 +139,6 @@ footer li {
   border-radius: 5px;
 }
 
-.clientes-container {
-  background-color: #555555;
-  padding: 1rem;
-}
-
 .clientes-galeria {
   display: grid;
   align-items: center;
@@ -145,7 +147,6 @@ footer li {
   gap: 1rem;
   padding: 10px;
   color: #313437;
-  background-color: #555555;
 }
 .clientes-galeria .photos {
   padding-bottom: 20px;
@@ -262,21 +263,6 @@ textarea {
   resize: none;
 }
 
-.nosotros-containter {
-  background-color: #555555;
-  padding: 1rem;
-  color: white;
-}
-
-.nosotros-titulo {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .nosotros-parrafo {
   display: flex;
   flex-direction: column;
@@ -285,6 +271,21 @@ textarea {
 }
 .nosotros-parrafo p:hover {
   background-color: #1f2528;
+}
+
+.modelos-container {
+  padding: 10px;
+}
+
+.container-modelos {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.white-line {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -22,9 +22,16 @@ h2{
     justify-content: $justify;
 }
 
-.sheet-title{
+.default-container{
     background-color: $main-background;
     padding: 1rem;
     color: white;
+}
+
+.default-title{
+    background-color: $main-background;
+    padding: 1rem;
+    color: white;
+    text-align: center;
     @include flexbox(column, center, center);
 }
