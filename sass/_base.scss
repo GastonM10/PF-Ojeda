@@ -33,5 +33,5 @@ h3{
     padding: 1rem;
     color: white;
     text-align: center;
-    @include flexbox(column, center, center);
+    @include flexbox(row, center, center);
 }

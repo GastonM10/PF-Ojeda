@@ -3,10 +3,6 @@
     background-color: #555555;
 }
 
-.grid-container-form-data h4{
-    color: white;
-}
-
 .imagen-contacto{
     box-shadow: 2px 2px 4px #000000;
 }
@@ -22,6 +18,10 @@
     padding: 1rem;
     gap: 1rem;
     @include flexbox(column, start, space-evenly);
+
+    & h1{
+        color: white;
+    }
 }
 
 .btn-form{
