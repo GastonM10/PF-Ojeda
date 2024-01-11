@@ -6,7 +6,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: white;
 }
 
@@ -25,17 +26,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.btn-form {
-  align-self: center;
-}
-
-.btn-form:hover {
-  background-color: rgb(128, 128, 128) !important;
-  color: #212529;
-  font-weight: bold;
-  border-radius: 5px;
 }
 
 .navbar-nav,
@@ -199,7 +189,6 @@ footer li {
 .btn-form {
   align-self: center;
 }
-
 .btn-form:hover {
   background-color: rgb(128, 128, 128) !important;
   color: #212529;

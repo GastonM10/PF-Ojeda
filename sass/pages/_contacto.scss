@@ -26,13 +26,13 @@
 
 .btn-form{
     align-self: center;
-}
 
-.btn-form:hover{
-    background-color: rgb(128, 128, 128) !important;
-    color: #212529;
-    font-weight: bold;
-    border-radius: 5px;
+    &:hover{
+        background-color: rgb(128, 128, 128) !important;
+        color: #212529;
+        font-weight: bold;
+        border-radius: 5px;
+    }
 }
 
 textarea{

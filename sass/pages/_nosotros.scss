@@ -1,5 +1,6 @@
 .nosotros-parrafo{
     @include flexbox(column, center, center);
+    
     p:hover {
         background-color: #1f2528;
       }

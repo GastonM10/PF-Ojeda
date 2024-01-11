@@ -1,6 +1,5 @@
 $ff-quicksand: "Quicksand", sans-serif;
-$h1-color: white;
-$h2-color: white;
+$h-color: white;
 $main-background: #555555;
 
 *{
@@ -11,8 +10,9 @@ $main-background: #555555;
 }
 
 h1,
-h2{
-	color: $h1-color;
+h2,
+h3{
+	color: $h-color;
 }
 
 @mixin flexbox($direction, $align, $justify){
