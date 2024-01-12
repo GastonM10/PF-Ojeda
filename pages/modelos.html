@@ -213,6 +213,35 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
+        <!-- Back to top button -->
+        <button type="button" class="btn btn-secondary rounded-circle" id="btn-back-to-top">
+            <i class="bi bi-arrow-up-circle-fill h2"></i>
+        </button>
+
+        <!-- Back to top button -->
+        <script>
+            let mybutton = document.getElementById("btn-back-to-top");
+
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            mybutton.addEventListener("click", backToTop);
+
+            function backToTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
     </body>
 
 </html>
